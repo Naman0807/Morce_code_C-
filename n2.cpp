@@ -80,10 +80,6 @@ string moreseWordToEnglish(string morseWord)
             words.push_back(str);
         }
     }
-    // for (int i = 0; i < words.size(); i++)
-    // {
-    //     cout << words[i] << endl;
-    // }
     for (int i = 0; i < words.size(); i++)
     {
         for (int j = 0; j < 37; j++)
